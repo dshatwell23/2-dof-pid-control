@@ -20,11 +20,11 @@ The 2-DOF PID controller is a variation of the classic PID controller that inclu
 
 This equation can be separated into two transfer functions, such that
 
-<img src="images/equation2.png" alt="equation2" height="200"/>
+<img src="images/equation2.png" alt="equation2" height="50"/>
 
 The first transfer function (Cr) is applied to the reference signal, while the second one (Cy) is applied to the output signal in the feedback loop. The block diagram of the controller is shown below.
 
-<img src="images/block_diagram.png" alt="block_diagram" height="200"/>
+<img src="images/block_diagram.png" alt="block_diagram" height="100"/>
 
 ## Results
 
