@@ -16,15 +16,15 @@ The control algorithm is implemented in the ECP Executive Software, which allows
 
 The 2-DOF PID controller is a variation of the classic PID controller that includes two set point weights. This modification has the potential to improve the transient and steady state responses of the plant. Mathematically, the 2-DOF PID controller is represented by 
 
-<img src="images/equation1.png" alt="equation1" height="100"/>
+<img src="images/equation1.png" alt="equation1" height="50"/>
 
 This equation can be separated into two transfer functions, such that
 
-<img src="images/equation2.png" alt="equation2" height="50"/>
+<img src="images/equation2.png" alt="equation2" height="100"/>
 
 The first transfer function (Cr) is applied to the reference signal, while the second one (Cy) is applied to the output signal in the feedback loop. The block diagram of the controller is shown below.
 
-<img src="images/block_diagram.png" alt="block_diagram" height="100"/>
+<img src="images/block_diagram.png" alt="block_diagram" height="200"/>
 
 ## Results
 
