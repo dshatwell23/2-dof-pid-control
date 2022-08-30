@@ -4,11 +4,11 @@ This repository contains the code for the paper "2-DOF PID Control of the Angula
 
 ## Description
 
-In this project, we used a 2–DOF (2 Degrees of Free- dom) PID (Proportional Integral Derivative) controller to control the angular position of the rotational load of an industrial plant emulator. The plant consists of a DC servo motor that is connected to a speed reducer with backlash, which in turn is connected to a rotational load through an elastic belt. The performance of the 2–DOF PID control system is compared with the performance of a PID control system. Experimental results demonstrate that the former control system performs better in the presence of multiple disturbances such as backlash, friction and vibration by decreasing the magnitude of the oscillations in the steady state.
+In this project, we used a 2–DOF (2 Degrees of Freedom) PID (Proportional Integral Derivative) controller to control the angular position of the rotational load of an industrial plant emulator. The plant consists of a DC servo motor that is connected to a speed reducer with backlash, which in turn is connected to a rotational load through an elastic belt. The performance of the 2–DOF PID control system is compared with the performance of a PID control system. Experimental results demonstrate that the former control system performs better in the presence of multiple disturbances such as backlash, friction and vibration by decreasing the magnitude of the oscillations in the steady state.
 
 ## Experimental setup
 
-The plant possesses two high–resolution encoders of 16000 counts per revolution to measure the angular position (theta 1) of the servo motor, and the load disk theta 2. The DSP (Digital Signal Processor) based real-time controller then processes the data measured by the encoders and produces a control voltage, which is amplified and fed to the armature of the DC servo motor. The motor in turn generates the necessary torque to drive the angular position of the load disk.
+The plant possesses two high–resolution encoders of 16000 counts per revolution to measure the angular position (theta 1) of the servo motor, and the load disk (theta 2). The DSP (Digital Signal Processor) based real-time controller then processes the data measured by the encoders and produces a control voltage, which is amplified and fed to the armature of the DC servo motor. The motor in turn generates the necessary torque to drive the angular position of the load disk.
 
 <img src="images/setup.png" alt="setup" height="250"/>
 
