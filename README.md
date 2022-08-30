@@ -24,7 +24,7 @@ This equation can be separated into two transfer functions, such that
 
 The first transfer function (Cr) is applied to the reference signal, while the second one (Cy) is applied to the output signal in the feedback loop. The block diagram of the controller is shown below.
 
-<img src="images/block_diagram.png" alt="block_diagram" height="200"/>
+<img src="images/block_diagram.png" alt="block_diagram" height="150"/>
 
 ## Results
 
