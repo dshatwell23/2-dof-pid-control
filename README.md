@@ -10,7 +10,7 @@ In this project, we used a 2–DOF (2 Degrees of Free- dom) PID (Proportional In
 
 The plant possesses two high–resolution encoders of 16000 counts per revolution to measure the angular position (theta 1) of the servo motor, and the load disk theta 2. The DSP (Digital Signal Processor) based real-time controller then processes the data measured by the encoders and produces a control voltage, which is amplified and fed to the armature of the DC servo motor. The motor in turn generates the necessary torque to drive the angular position of the load disk.
 
-<img src="images/setup.png" alt="setup" height="200"/>
+<img src="images/setup.png" alt="setup" height="250"/>
 
 The control algorithm is implemented in the ECP Executive Software, which allows the user to choose between a variety of control parameters, (PID, full–state feedback, pre–filters and feed–forward blocks), specifying command trajectories and selecting the data to be acquired.
 
@@ -32,6 +32,6 @@ The first transfer function (Cr) is applied to the reference signal, while the s
 
 In this project, we implemented two real–time feedback control systems to control the angular position of a load disk connected to a servo motor through a speed reducer system with backlash, Coulomb friction and vibration. In general, both controllers achieved similar performance in experimental tests. However, in the presence of all disturbances, the step response of the 2–DOF PID controller showed significantly less overshoot and steady state error and similar settling time. The main reason for this difference is that the PID controller was not able to compensate the oscillations in the steady state produced by the presence of backlash and vibration. The amplitude of the oscillations in the PID control system tended to increase slowly with time, which implies that the overall system might become unstable.
 
-<img src="images/results.png" alt="results" height="200"/>
+<img src="images/results.png" alt="results" height="250"/>
 
 
